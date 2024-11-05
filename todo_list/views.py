@@ -8,6 +8,6 @@ class NoteView(generics.RetrieveUpdateDestroyAPIView):
     queryset = Note.objects.all()
     serializer_class = NoteSerializer
 
-class NoteListView(generics.ListAPIView):
+class NoteListView(generics.ListCreateAPIView):
     queryset = Note.objects.all()
     serializer_class = NoteSerializer
