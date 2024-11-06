@@ -61,7 +61,7 @@ ROOT_URLCONF = 'todo.urls'
 
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000",
-    "https://front-one-rho.vercel.app",
+    "https://back-ih3xrzr5y-temgoua-arthurs-projects.vercel.app",
 ]
 
 TEMPLATES = [
